@@ -76,13 +76,14 @@ ul .link_item a{
 /* main style start  */
 
 /* feature_sectio-Style */
-.feature_img{
+/* .feature_img{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-}
+} */
 .feature_section{
     align-items: center;
+    gap: 50px;
 }
 
 /* main style end */
