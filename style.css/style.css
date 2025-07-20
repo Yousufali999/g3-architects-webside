@@ -73,6 +73,21 @@ ul .link_item a{
     width: 100%;
 }
 
+/* main style start  */
+
+/* feature_sectio-Style */
+.feature_img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.feature_section{
+    align-items: center;
+}
+
+/* main style end */
+
+
 
 /* Responsive_design */
 
@@ -82,14 +97,3 @@ ul .link_item a{
         flex-direction: column;
     }
 }
-
-/* main style start  */
-
-/* feature_sectio-Style */
-.feature_section{
-    align-items: center;
-    
-
-}
-
-/* main style end */
