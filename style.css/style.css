@@ -1,0 +1,84 @@
+/* work-sans_Font_link */
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+}
+
+/* shared style  */
+
+.display{
+    display: flex;
+}
+/* font_color shared section  */
+.dark_3{
+    color: #727272;
+}
+.dark_2{
+    color: #424242;
+}
+
+/* all_button_styel */
+.btn_primary{
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    background-color:#FF900E;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+/* Backgroun_color style  */
+.bg_color{
+    background-color: #FF900E1A;
+}
+/* all content_width */
+.max_content{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* header style  */
+.nav_contain{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_baner{
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+.navber-link{
+    gap: 25px;
+}
+ul .link_item{
+    list-style: none;
+}
+ul .link_item a{
+    text-decoration: none;
+    color:#424242 ;
+}
+/* Header_Baner_Style  */
+.baner_text_conten{
+    max-width: 862px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.baner_title{
+    font-size: 4rem;
+    font-weight:bold;
+    margin-bottom: 0px;
+}
+.baner_img{
+    width: 100%;
+}
+
+
+/* Responsive_design */
+
+/* small_device */
+@media screen and (max-width:576px) {
+    .nav_contain{
+        flex-direction: column;
+    }
+}
