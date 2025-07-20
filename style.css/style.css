@@ -76,14 +76,30 @@ ul .link_item a{
 /* main style start  */
 
 /* feature_sectio-Style */
-/* .feature_img{
+.feature_img{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-} */
+     
+}
 .feature_section{
+    background-color:#F3E5F5;
+    border-radius: 10px;
     align-items: center;
-    gap: 50px;
+    gap: 150px;
+    
+    padding:10px;
+    margin-top: 5.2rem;
+}
+.featuer_alone{
+    color:#FF900E ;
+}
+.feature_titel{
+    font-size: 45px;
+    font-weight: bold;
+}
+.feature_content{
+    max-width: 468px;
 }
 
 /* main style end */
@@ -96,5 +112,15 @@ ul .link_item a{
 @media screen and (max-width:576px) {
     .nav_contain{
         flex-direction: column;
+    }
+    nav>ul{
+        padding:0px;
+    }
+    .feature_section{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .feature_img{
+        grid-template-columns: 1fr;
     }
 }
