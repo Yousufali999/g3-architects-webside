@@ -171,9 +171,41 @@ ul .link_item a{
     box-sizing: border-box;
     border-radius: 5px;
 }
-.hide{
-    display: none;
+
+/* footer style  */
+.footer_content{
+    max-width: 542px;
+    margin: auto;
+    text-align: center;
+    
 }
+.footer_contaner {
+    margin-bottom: 100px;
+}
+.footer_title{
+    font-size: 3rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.footer_imgae_continer{
+    display:flex;
+    justify-content: space-between;
+     
+}
+.footer_imgae_contine img{
+    max-width: 100%;
+}
+.copy_right_section{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+footer{
+    background-color: #EEEEEE;
+}
+    
+ 
 
 /* Responsive_design */
 
@@ -216,5 +248,14 @@ ul .link_item a{
     }
     .facts_iemts{
         grid-template-columns: 1fr;
+    }
+    .feature_enjoy_section{
+        grid-template-columns:1fr;
+    }
+    .footer_imgae_continer{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+       gap: 50px;
     }
 }
